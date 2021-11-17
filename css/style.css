@@ -99,7 +99,24 @@ table {
     left: 10px;
   }
 
-  .sprawdzian .zadanie .kartkowka {
-    font-size: 3px;
+  .sprawdzian {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+  }
+  
+  .zadanie {
+    background-color: #4b4b4b;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+  }
+  
+  .kartkowka {
+    background-color: #8c8c8c;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
   }
 }
