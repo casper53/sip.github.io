@@ -5,12 +5,18 @@ window.onload = function() {
             document.getElementById("text").style.backgroundColor = 'rgb(44, 44, 44)'
             document.getElementById("mode").style.backgroundColor = 'rgb(64, 64, 64)'
             document.getElementById("mode").innerHTML = 'jasny motyw'
+            document.querySelector("table").style.opacity = '1'
+            document.getElementById("text").style.opacity = '1'
+            document.getElementById("mode").style.opacity = '1'
         }
         else if(localStorage.getItem('mode') === 'bright'){
             document.querySelector("body").style.backgroundColor = 'rgb(223, 221, 235)'
             document.getElementById("text").style.backgroundColor = 'rgb(243, 231, 235)'
             document.getElementById("mode").style.backgroundColor = 'rgb(233, 221, 240)'
             document.getElementById("mode").innerHTML = 'ciemny motyw'
+            document.querySelector("table").style.opacity = '1'
+            document.getElementById("text").style.opacity = '1'
+            document.getElementById("mode").style.opacity = '1'
         }
     }
     else
